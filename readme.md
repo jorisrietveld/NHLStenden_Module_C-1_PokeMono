@@ -1,8 +1,7 @@
-# PokeMono
+![PokeMono logo](Resources/logo_striped.png)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENCE)
 [![.Net Core 2.2](https://img.shields.io/badge/.NET%20Core%202.2%0A-blue.svg)](https://dotnet.microsoft.com/download)
-
-![PokeMono logo](Resources/logo_striped.png)
+<br>
 This repository holds the source code of the PokeMono game written in [C# 8.0](https://dotnet.microsoft.com/languages) build 
 with [monogame](https://github.com/MonoGame/MonoGame) on top off [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core).
 
