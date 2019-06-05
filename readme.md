@@ -1,4 +1,5 @@
 ![PokeMono logo](Resources/logo_striped.png)
+<br>
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENCE)
 [![.Net Core 2.2](https://img.shields.io/badge/.NET%20Core%202.2%0A-blue.svg)](https://dotnet.microsoft.com/download)
 <br>
