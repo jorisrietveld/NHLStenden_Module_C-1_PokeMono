@@ -71,7 +71,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 <hr>
 This page (the documentation) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-All other content like images, fonts and trade marks are owned by there respected owners. The project is created for educational purposes ([fair usage](https://www.copyright.gov/fair-use/more-info.html))  
+All other content like images, fonts and trade marks are owned by there respected owners. The project is created for educational purposes [fair usage](https://www.copyright.gov/fair-use/more-info.html)  
 
 [![Author Joris Rietveld](https://img.shields.io/badge/Author-Joris%20Rietveld-blue.svg)](https://github.com/jorisrietveld)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
