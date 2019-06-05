@@ -1,13 +1,44 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PokeMono", "PokeMono\PokeMono.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokoMono.UWP", "PokoMono.UWP\PokoMono.UWP.csproj", "{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PokeMono\PokeMono.projitems*{433b7ff0-72e2-4293-a8dc-3bde8a1aac08}*SharedItemsImports = 4
 		PokeMono\PokeMono.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|ARM.ActiveCfg = Debug|ARM
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|ARM.Build.0 = Debug|ARM
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|ARM.Deploy.0 = Debug|ARM
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|x64.ActiveCfg = Debug|x64
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|x64.Build.0 = Debug|x64
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|x64.Deploy.0 = Debug|x64
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|x86.ActiveCfg = Debug|x86
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|x86.Build.0 = Debug|x86
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Debug|x86.Deploy.0 = Debug|x86
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|ARM.ActiveCfg = Release|ARM
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|ARM.Build.0 = Release|ARM
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|ARM.Deploy.0 = Release|ARM
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x64.ActiveCfg = Release|x64
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x64.Build.0 = Release|x64
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x64.Deploy.0 = Release|x64
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x86.ActiveCfg = Release|x86
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x86.Build.0 = Release|x86
+		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

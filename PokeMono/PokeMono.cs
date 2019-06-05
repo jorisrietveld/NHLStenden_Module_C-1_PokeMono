@@ -1,28 +1,33 @@
 ﻿#region Using Statements
-using System;
+using Windows.System;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.Input;
 
 #endregion
 
 namespace PokeMono
 {
+    public enum GameState
+    {
+        TitleScreen,
+        Game
+    }
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
-    public class Game1 : Game
+    public class PokeMonoGame : Game
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
+        public static PokeMonoGame Instance;
 
-        public Game1()
+        private readonly GraphicsDeviceManager _graphicsDevice;
+
+        public PokeMonoGame()
         {
-            graphics = new GraphicsDeviceManager(this);
+            _graphicsDevice = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            graphics.IsFullScreen = true;
+            _graphicsDevice.IsFullScreen = true;
         }
 
         /// <summary>
@@ -44,7 +49,7 @@ namespace PokeMono
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+            //spriteBatch = new SpriteBatch(GraphicsDevice);
 
             //TODO: use this.Content to load your game content here 
         }
