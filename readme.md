@@ -15,8 +15,7 @@ with [monogame](https://github.com/MonoGame/MonoGame) on top off [.NET Core 2.2]
 - [Setting Up a development environment](#Setting-Up-a-development-environment)
 - [Installing IDE and Sdk](#Installing-IDE-and-Sdk)
 - [Fetching the project and dependencies](#Fetching-the-project-and-dependencies)
-
-### Building and Running
+- [Building and Running](#Building-and-Running)
 - [:heart: Proudly build with open-source technology:](#proudly-build-with-open-source-technology)
 - [Known issues](#known-issues)
 - [Licencing](#licencing)
