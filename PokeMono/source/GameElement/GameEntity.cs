@@ -4,7 +4,13 @@ using System.Text;
 
 namespace PokeMono.source.GameElement
 {
-    class GameEntity
+    public class GameEntity
     {
+        private IList<IGameComponent> _gameComponents;
+        
+        public GameEntity(IList<IGameComponent> components)
+        {
+            this._gameComponents = components;
+        }
     }
 }

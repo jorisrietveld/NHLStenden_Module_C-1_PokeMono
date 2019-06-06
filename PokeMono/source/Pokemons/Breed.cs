@@ -1,4 +1,4 @@
-namespace PokeMono.source.Pokemon
+namespace PokeMono.source.Pokemons
 {
     public class Breed
     {

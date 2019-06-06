@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace PokeMono.source.Scene
 {
@@ -9,5 +10,10 @@ namespace PokeMono.source.Scene
         public float PlankTime { get; set; } = 1f;
 
         // public List<GameEntity> GameEntities { get; protected set; }
+
+
+        public void Draw(GameTime gameTime)
+        {
+        }
     }
 }
