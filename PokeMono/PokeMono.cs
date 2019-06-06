@@ -118,6 +118,7 @@ namespace PokeMono
                 case GameState.Score:
                     break;
                 default:
+
                     throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
             }
         }
