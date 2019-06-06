@@ -10,8 +10,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)PokeMono.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\Audio\AudioManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)source\GameElement\GameEntity.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)source\GameElement\Scene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\GameElement\GameEntityFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\GameElement\IGameComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\GameElement\IGameEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\GameElement\IGameEntityFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\GameModel\Battle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\GameModel\GameSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\GameModel\SavedGame.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)source\Graphics\RenderTargetScaler.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)source\Player\InputManager.cs" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace PokeMono.source.GameElement
+namespace PokeMono.source.Scene
 {
     public abstract class Scene
     {

@@ -1,8 +1,10 @@
 ﻿#region Using Statements
 
+using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using PokeMono.source.GameElement;
+using PokeMono.source.Scene;
 using PokeMono.source.Graphics;
 using PokeMono.source.Player;
 
@@ -23,12 +25,17 @@ namespace PokeMono
     }
 
     /// <summary>
-    ///     This is the main type for your game.
+    ///     This is the main PokeMono class, it will initiate the game and start the game loop.
     /// </summary>
     public class PokeMonoGame : Game
     {
+        /// <value>Used throughout the game as a reference, for example to switch scenes.</value>
         public static PokeMonoGame Instance;
+        
+        /// <value>Used to initiate the render target scalar.</value>
         public static int ScreenHeight = 1080;
+        
+        /// <value>Used to initiate the render target scalar.</value>
         public static int ScreenWidth = 1920;
 
         private readonly GraphicsDeviceManager _graphicsDevice;
@@ -62,19 +69,6 @@ namespace PokeMono
         }
 
         /// <summary>
-        ///     LoadContent will be called once per game and is the place to load
-        ///     all of your content.
-        ///     Currently not used because each scene will loads its own assets.
-        /// </summary>
-        protected override void LoadContent()
-        {
-            // Create a new SpriteBatch, which can be used to draw textures.
-            //spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            //TODO: use this.Content to load your game content here 
-        }
-
-        /// <summary>
         ///     Allows the game to run logic such as updating the world,
         ///     gathering input, and playing audio.
         /// </summary>
@@ -98,11 +92,34 @@ namespace PokeMono
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            _renderTargetScaler.SetRenderTarget();
+            _currentScene.Draw(gameTime);
+            _renderTargetScaler.Draw();
+        }
 
-            //TODO: Add your drawing code here
-
-            base.Draw(gameTime);
+        /// <summary>
+        /// Updates the current scene that is shown to the user.
+        /// </summary>
+        /// <param name="newState"></param>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public void SetState(GameState newState)
+        {
+            switch (newState)
+            {
+                case GameState.Intro:
+                    _currentScene = new IntroScene(this);
+                    break;
+                case GameState.MainMenu:
+                    break;
+                case GameState.PokemonSelect:
+                    break;
+                case GameState.Battle:
+                    break;
+                case GameState.Score:
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
+            }
         }
     }
 }

@@ -11,7 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Resources\logo_striped.png = Resources\logo_striped.png
 		readme.md = readme.md
+		.travis.yml = .travis.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeMonoTests", "PokeMonoTests\PokeMonoTests.csproj", "{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -45,6 +48,18 @@ Global
 		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x86.ActiveCfg = Release|x86
 		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x86.Build.0 = Release|x86
 		{433B7FF0-72E2-4293-A8DC-3BDE8A1AAC08}.Release|x86.Deploy.0 = Release|x86
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Debug|x64.Build.0 = Debug|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Debug|x86.Build.0 = Debug|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Release|ARM.Build.0 = Release|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Release|x64.ActiveCfg = Release|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Release|x64.Build.0 = Release|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Release|x86.ActiveCfg = Release|Any CPU
+		{C6AFB74D-FB89-4EED-9F9B-DE876A1CE055}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
