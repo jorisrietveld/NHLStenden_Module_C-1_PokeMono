@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -12,6 +12,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)PokeMono.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)source\GameElement\GameEntity.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)source\GameElement\Scene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\Graphics\RenderTargetScaler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)source\Player\InputManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
